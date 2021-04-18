@@ -1,6 +1,3 @@
-
-//var myjsonObj = "{\"predio\":\"predio1\", \"localdetrabalho\":\"hahaha\"}";
-
 var myjsonObj = '[{"predio":"predio1", "localdetrabalho":"hahaha","remover":"remover1"},{"predio":"predio2","localdetrabalho":"kkkk","remover":"remover2"}]';
 
 var jsObj = JSON.parse(myjsonObj);
