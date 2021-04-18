@@ -1,0 +1,229 @@
+
+
+*{margin: 0;
+padding: 0;
+max-height: 700px
+}
+
+body{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	max-height: 750px;
+	background-color: #DCDCDC;
+	
+
+}
+a{
+	text-decoration: none;
+	color:black;
+	display: block;
+	padding: 10px 5px;
+	color: white;
+	background-color: darkblue;
+	margin-top: 2px;
+}
+
+a:hover{
+
+	background-color: darkgray;
+	color: black ;
+}
+ul{
+	list-style: none;
+	position: absolute;
+}
+
+
+#container{
+	margin: 0px auto 0 px auto;
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: relative;
+}
+
+#cabecalho{
+	margin: 0px auto 0px auto;
+	width: 100%;
+	height: 160px;
+	position: relative;
+	background-image: url(imagens/admin-small.png);
+	background-color: lightblue;
+	text-align: left;
+	text-decoration-color: green;
+	line-height: 80px;
+	color: white;
+
+
+
+}
+
+#corpo{
+
+	padding-top: 10px;
+	
+	height: 100%;
+	background-color: #DCDCDC;
+
+}
+
+nav{
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 150px;
+	height: 100%;
+	float: left;
+	background: linear-gradient(to right, #4c6c81, #083263);
+	border-top: black;
+}
+
+section{
+	margin: 0px auto 0px auto;
+	width: 900px;
+	height: 450px;
+	float: left;
+	background:#D3D3D3;
+	margin-left: 1px;
+}
+div{
+
+	display: inline-block;
+}
+.cabecalho_artigo{
+	margin: 0px auto 0px auto;
+	width: 278px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+.artigo{
+	margin: 0px auto 0px auto;
+	width: 800px;
+	height: 400px;
+	position: left;
+	background: white;
+	margin-left: 25px;
+	margin-top: 10px;
+	color:black;
+}
+
+#localdetrabalho{
+	width: 150px;
+	text-align: center;
+	background: lightyellow;
+	padding: 10px;
+	margin-left: 1px;
+	line-height: center;
+
+}
+
+#listafixa{
+	width: 60px;
+	position: left;
+	text-align: top;
+	background: lightgreen;
+	padding: 10px;
+
+
+
+}
+
+#predios{
+	width: 100px;
+	background-color: lightyellow;
+	color: black;
+	text-shadow: 1em;
+	text-align: top;
+	padding-top: 5px;
+	position: center;
+	line-height: 1px;
+}
+
+.rodape_corpo{
+	position: relative;
+	bottom: 0;
+	background-color: darkgreen;
+	width: 100%;
+	height: 50px;
+	text-align: bottom;
+	line-height: 50px;
+
+	
+}
+
+input:hover{
+	background-color: darkgray;
+	color: black ;
+
+}
+
+select{
+	text-align: top;
+	width: 150px;
+}
+
+form{
+	
+	left: 300px;
+	top: 250px;	
+}
+
+}
+
+
+
+.registerTabela{
+	background: #FFFFF0;
+	object-position: right;
+	padding-left: 100px;
+	border-collapse: collapse;;
+}
+.registerTabela td{
+	border: 1px solid black;
+	padding-left: 5px;
+}
+
+.registerTabela tr{
+	border: 1px solid black;
+	background: #F0FFF0;
+	padding-left: 5px;
+}
+
+input.adicionar{
+	position: center;
+	padding-top: 30px;
+}
+
+input{
+	text-align: center;
+
+
+}
+
+
+
+#tabela{
+	float left;
+	padding-left: 330px;
+}
+
+
+
+thead{
+	
+	background-color: red;
+	text-align: center;
+}
+
+header.artigotitle{
+	margin-left: 30px;
+}
+
+label{
+	text-align: top;
+}
+
